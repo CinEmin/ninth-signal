@@ -26,6 +26,6 @@ body:
       label: Would you choose to play another original case?
       options:
         - Not reported
-        - Yes
+        - "Yes"
         - Unsure
-        - No
+        - "No"
