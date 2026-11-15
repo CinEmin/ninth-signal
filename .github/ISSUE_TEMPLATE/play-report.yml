@@ -1,0 +1,31 @@
+name: Play report
+description: Optional feedback after playing the prototype
+title: "Play report"
+body:
+  - type: markdown
+    attributes:
+      value: "Reports are public. Do not include personal information. Please describe your real experience, including stopping early."
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: How did your session end?
+      options:
+        - Not reported
+        - Finished without help
+        - Finished with help or after reading an ending explanation
+        - Stopped before deciding
+        - Could not run the game
+  - type: textarea
+    id: experience
+    attributes:
+      label: What helped or confused you?
+      description: Optional. Mention a record or control if relevant; avoid personal details.
+  - type: dropdown
+    id: next
+    attributes:
+      label: Would you choose to play another original case?
+      options:
+        - Not reported
+        - Yes
+        - Unsure
+        - No
