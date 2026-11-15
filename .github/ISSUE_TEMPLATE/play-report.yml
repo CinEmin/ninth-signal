@@ -29,3 +29,14 @@ body:
         - "Yes"
         - Unsure
         - "No"
+  - type: dropdown
+    id: hypothetical_price
+    attributes:
+      label: Hypothetical three-case pack for USD3
+      description: "Optional research only. Imagine three NEW cases of similar length and quality for USD3 total, with a free sample. No pack is offered for sale, no preorder or commitment is requested, and development is not promised. Which best describes your current view?"
+      options:
+        - Not reported
+        - I would consider buying at that price
+        - I would only play if free
+        - I would not want more cases
+        - I need more information to decide
